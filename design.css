@@ -1,0 +1,92 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(32, 32, 32);
+    color:rgb(0, 119, 255) ;
+    
+    
+}
+.img_logo_hedaer{
+    width: 100px;
+}
+.header,
+.nagivaton_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+.header{
+    background-color:#464749;
+    box-shadow: 1px 1px 4px;                   
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 3,5;
+}
+.nagivaton_header {
+    gap:2cm;
+    z-index: 2;
+}
+.nagivaton_header,a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    font-weight: bold;
+   }
+
+   .nagivaton_header  a:hover{
+    color: rgb(255, 127, 127);
+   }
+
+
+   .active{
+    background-color: rgb(76, 0, 255);
+    padding: 10px;
+    border-radius: 10px;
+   }
+   
+   h1{
+    color: white;
+    text-align: center;
+}
+
+.Paragrafos{
+    color:rgb(110, 206, 54);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.img_cdm_header{
+    width: 500px;
+}
+
+.Img_Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Img_Palestrantes{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img_ckl_pp{
+    width: 200px;
+    border-radius: 50%;
+}
+.paragrafo{
+    text-align: center;
+    color: chocolate;
+    font-size: 29px;    
+}
+
+form textarea{
+    resize: none;
+}
+
+
